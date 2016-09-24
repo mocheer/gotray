@@ -1,0 +1,6 @@
+{
+    "name": "gotray",
+    "ico": "./app.ico",
+    "rm": "rm.json",
+    "lm": "lm.json"
+}

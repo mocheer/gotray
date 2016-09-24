@@ -1,0 +1,101 @@
+[
+    {
+        "label": "Github",
+        "data": {
+            "type": "url",
+            "val": "https://github.com/mocheer"
+        }
+    },
+    {
+        "label": "GitLab",
+        "data": {
+            "type": "url",
+            "val": "https://gitlab.com/u/mocheer"
+        }
+    },
+    {
+        "label": "Gogs",
+        "data": {
+            "type": "url",
+            "val": "https://try.gogs.io/"
+        }
+    },
+    {
+        "label": "OSChina",
+        "data": {
+            "type": "url",
+            "val": "http://www.oschina.net/"
+        }
+    },
+    {
+        "label": "GitBook",
+        "data": {
+            "type": "url",
+            "val": "https://www.gitbook.com/"
+        }
+    },
+    {
+        "label": "Gitter",
+        "data": {
+            "type": "url",
+            "val": "https://gitter.im/FreeCodeCamp/chinese"
+        }
+    },
+    {
+        "separator": true
+    },
+    {
+        "label": "截屏",
+        "disabled": false
+    },
+    {
+        "label": "打开配置信息",
+        "barbreak": true,
+        "data": {
+            "type": "start",
+            "val": "rm.json"
+        }
+    },
+    {
+        "label": "打开控制面板",
+        "data": {
+            "type": "controlRunDLL"
+        }
+    },
+    {
+        "label": "锁定计算机",
+        "data": {
+            "type": "lockWork"
+        }
+    },
+    {
+        "label": "关闭电源",
+        "data": {
+            "type": "poweroff"
+        }
+    },
+    {
+        "label": "关机",
+        "data": {
+            "type": "shutdown"
+        }
+    },
+    {
+        "label": "重启",
+        "data": {
+            "type": "reboot"
+        }
+    },
+    {
+        "label": "注销",
+        "data": {
+            "type": "logoff"
+        }
+    },
+    {
+        "label": "退出",
+        "data": {
+            "type": "exit"
+        }
+    }
+]
