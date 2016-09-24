@@ -21,6 +21,13 @@
         }
     },
     {
+        "label": "Bitbucket",
+        "data": {
+            "type": "url",
+            "val": "https://bitbucket.org/mocheer/"
+        }
+    },
+    {
         "label": "OSChina",
         "data": {
             "type": "url",
