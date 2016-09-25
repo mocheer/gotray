@@ -17,7 +17,7 @@
         "label": "Gogs",
         "data": {
             "type": "url",
-            "val": "https://try.gogs.io/"
+            "val": "https://try.gogs.io/mocheer"
         }
     },
     {
@@ -38,7 +38,7 @@
         "label": "GitBook",
         "data": {
             "type": "url",
-            "val": "https://www.gitbook.com/"
+            "val": "https://www.gitbook.com/@mch"
         }
     },
     {
@@ -49,6 +49,20 @@
         }
     },
     {
+        "label": "GoRoot",
+        "data": {
+            "type": "envUrl",
+            "val": "GOROOT"
+        }
+    },
+    {
+        "label": "GoPath",
+        "data": {
+            "type": "envUrl",
+            "val": "GOPATH"
+        }
+    },
+    {
         "separator": true
     },
     {
@@ -56,8 +70,15 @@
         "disabled": false
     },
     {
-        "label": "打开配置信息",
+        "label": "打开配置目录",
         "barbreak": true,
+        "data": {
+            "type": "start",
+            "val": "."
+        }
+    },
+    {
+        "label": "打开配置信息",
         "data": {
             "type": "start",
             "val": "rm.json"

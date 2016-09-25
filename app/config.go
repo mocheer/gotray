@@ -18,8 +18,8 @@ type AppConfig struct {
 type TrayConfig struct {
 	Name      string `json:"name"` //托盘名称
 	Ico       string `json:"ico"`  //托盘显示图标
-	LeftMenu  string `json:"lm"`   //左侧菜单项
-	RightMenu string `json:"rm"`   //右侧菜单项
+	LeftMenu  string `json:"lm"`   //左键菜单项
+	RightMenu string `json:"rm"`   //右键菜单项
 }
 
 //Init
@@ -52,7 +52,7 @@ func readJSON(path string, v interface{}) error {
 // GetDefaultConfig 获取默认配置
 func (this *AppConfig) GetDefaultConfig() *TrayConfig {
 	return &TrayConfig{
-		Name:      "app",
+		Name:      "gotray",
 		Ico:       "app.ico",
 		RightMenu: "rm.json",
 		LeftMenu:  "lm.json"}

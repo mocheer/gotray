@@ -1,0 +1,17 @@
+[
+    {
+        "label": "Gis开发手册",
+        "data": {
+            "type": "url",
+            "val": " https://mch.gitbooks.io/gis-manual/content/"
+        }
+    },
+    {
+        "label": "打开配置信息",
+        "barbreak": true,
+        "data": {   
+            "type": "start",
+            "val": "lm.json"
+        }
+    }
+]
